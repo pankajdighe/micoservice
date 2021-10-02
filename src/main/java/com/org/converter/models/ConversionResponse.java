@@ -1,8 +1,11 @@
-package com.converter.converter.models;
+package com.org.converter.models;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * This is model class to sent conversion response
+ */
 public class ConversionResponse {
 
     private List<ConversionObject> conversion = new ArrayList<>();

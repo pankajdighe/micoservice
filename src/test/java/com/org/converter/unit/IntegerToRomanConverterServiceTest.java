@@ -1,8 +1,8 @@
-package com.converter.converter;
+package com.org.converter.unit;
 
-import com.converter.converter.models.ConversionResponse;
-import com.converter.converter.service.IConverter;
-import com.converter.converter.service.impl.IntegerToRomanConverterService;
+import com.org.converter.models.ConversionResponse;
+import com.org.converter.service.IConverter;
+import com.org.converter.service.impl.IntegerToRomanConverterService;
 import org.junit.jupiter.api.Test;
 import org.springframework.util.Assert;
 

@@ -1,7 +1,7 @@
-package com.converter.converter.service.impl;
+package com.org.converter.service.impl;
 
-import com.converter.converter.models.ConversionResponse;
-import com.converter.converter.service.IConverter;
+import com.org.converter.models.ConversionResponse;
+import com.org.converter.service.IConverter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -10,6 +10,9 @@ import java.util.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
+/**
+ * This is the implementation of IConverter which converts Integer to Roman numeral
+ */
 @Component
 public class IntegerToRomanConverterService implements IConverter {
     public static int[] data = new int[]{1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};

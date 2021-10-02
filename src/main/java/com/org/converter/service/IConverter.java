@@ -1,10 +1,12 @@
-package com.converter.converter.service;
+package com.org.converter.service;
 
-import com.converter.converter.models.ConversionResponse;
+import com.org.converter.models.ConversionResponse;
 
 import java.util.List;
-import java.util.Map;
 
+/**
+ * Converter interface
+ */
 public interface IConverter {
 
     ConversionResponse.ConversionObject convert(Integer integer);
