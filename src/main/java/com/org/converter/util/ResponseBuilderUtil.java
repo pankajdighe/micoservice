@@ -1,9 +1,8 @@
-package com.converter.converter.util;
+package com.org.converter.util;
 
-import com.converter.converter.models.ConversionResponse;
+import com.org.converter.models.ConversionResponse;
 
 import java.util.List;
-import java.util.Map;
 
 public class ResponseBuilderUtil {
 

@@ -1,8 +1,8 @@
-package com.converter.converter.controller;
+package com.org.converter.controller;
 
-import com.converter.converter.models.ConversionResponse;
-import com.converter.converter.service.IConverter;
-import com.converter.converter.util.ResponseBuilderUtil;
+import com.org.converter.models.ConversionResponse;
+import com.org.converter.service.IConverter;
+import com.org.converter.util.ResponseBuilderUtil;
 import io.micrometer.core.annotation.Timed;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -14,6 +14,9 @@ import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import java.util.Arrays;
 
+/**
+ * Following class is the controller layer which exposes the endpoints
+ */
 @RestController
 @RequestMapping(value = "/converter/v1/")
 @Validated
